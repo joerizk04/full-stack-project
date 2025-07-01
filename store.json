@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Premium Whey Protein",
+      "price": 29.99,
+      "category": "supplements",
+      "image": "assets/whey-protein.jpg",
+      "rating": { "rate": 4.8, "count": 120 },
+      "description": "24g protein per serving with digestive enzymes"
+    },
+    {
+      "id": 2,
+      "title": "Resistance Bands Set",
+      "price": 24.99,
+      "category": "equipment",
+      "image": "assets/resistance-bands.jpg",
+      "rating": { "rate": 4.5, "count": 85 },
+      "description": "5 bands with different resistance levels (10-50 lbs)"
+    },
+    {
+      "id": 3,
+      "title": "Performance T-Shirt",
+      "price": 19.99,
+      "category": "apparel",
+      "image": "assets/tshirt.jpg",
+      "rating": { "rate": 4.2, "count": 64 },
+      "description": "Moisture-wicking fabric with odor control"
+    },
+    {
+      "id": 4,
+      "title": "Pre-Workout Energizer",
+      "price": 34.99,
+      "category": "supplements",
+      "image": "assets/preworkout.jpg",
+      "rating": { "rate": 4.7, "count": 93 },
+      "description": "Enhances focus and endurance with 200mg caffeine"
+    },
+    {
+      "id": 5,
+      "title": "Adjustable Dumbbells",
+      "price": 199.99,
+      "category": "equipment",
+      "image": "assets/dumbbells.jpg",
+      "rating": { "rate": 4.9, "count": 42 },
+      "description": "5-50 lbs adjustable in 5 lb increments"
+    },
+    {
+      "id": 6,
+      "title": "Training Hoodie",
+      "price": 39.99,
+      "category": "apparel",
+      "image": "assets/hoodie.jpg",
+      "rating": { "rate": 4.4, "count": 37 },
+      "description": "Breathable fabric with thumb holes"
+    },
+    {
+      "id": 7,
+      "title": "BCAA Powder",
+      "price": 24.99,
+      "category": "supplements",
+      "image": "assets/bcaa.jpg",
+      "rating": { "rate": 4.3, "count": 78 },
+      "description": "2:1:1 ratio with electrolytes, tropical flavor"
+    },
+    {
+      "id": 8,
+      "title": "Yoga Mat",
+      "price": 29.99,
+      "category": "equipment",
+      "image": "assets/yoga-mat.jpg",
+      "rating": { "rate": 4.6, "count": 56 },
+      "description": "Non-slip surface with carrying strap"
+    },
+    {
+      "id": 9,
+      "title": "Compression Shorts",
+      "price": 27.99,
+      "category": "apparel",
+      "image": "assets/shorts.jpg",
+      "rating": { "rate": 4.1, "count": 49 },
+      "description": "4-way stretch fabric with pocket"
+    },
+    {
+      "id": 10,
+      "title": "Creatine Monohydrate",
+      "price": 18.99,
+      "category": "supplements",
+      "image": "assets/creatine.jpg",
+      "rating": { "rate": 4.7, "count": 112 },
+      "description": "Micronized for better absorption"
+    },
+    {
+      "id": 11,
+      "title": "Jump Rope",
+      "price": 14.99,
+      "category": "equipment",
+      "image": "assets/jump-rope.jpg",
+      "rating": { "rate": 4.0, "count": 31 },
+      "description": "Weighted handles with adjustable length"
+    },
+    {
+      "id": 12,
+      "title": "Gym Bag",
+      "price": 44.99,
+      "category": "apparel",
+      "image": "assets/gym-bag.jpg",
+      "rating": { "rate": 4.5, "count": 28 },
+      "description": "Multiple compartments with shoe pocket"
+    },
+    {
+      "id": 13,
+      "title": "Mass Gainer",
+      "price": 49.99,
+      "category": "supplements",
+      "image": "assets/mass-gainer.jpg",
+      "rating": { "rate": 4.2, "count": 45 },
+      "description": "1250 calories per serving with 50g protein"
+    },
+    {
+      "id": 14,
+      "title": "Foam Roller",
+      "price": 22.99,
+      "category": "equipment",
+      "image": "assets/foam-roller.jpg",
+      "rating": { "rate": 4.4, "count": 39 },
+      "description": "High-density EPP foam for muscle recovery"
+    },
+    {
+      "id": 15,
+      "title": "Training Gloves",
+      "price": 19.99,
+      "category": "apparel",
+      "image": "assets/gloves.jpg",
+      "rating": { "rate": 4.3, "count": 52 },
+      "description": "Padded palms with wrist support"
+    }
+  ]
+}

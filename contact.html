@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="design2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <script src="footer.js" defer></script>
+  <script src="contact.js" defer></script>
+  <script src="main.js" defer></script>
+  <title>Contact Us | The Circuit</title>
+</head>
+<body>
+ <header>
+ <nav class="sidebar">
+  <div class="top_sidebar">
+    <a href="index.html" class="brand">
+      <span class="entirebrand">The Circuit</span>
+      <span class="collap_brand">TC</span>
+    </a>
+    <button class="nav_toggling" id="nav_toggle">&#9776;</button>
+  </div>
+  <ul class="nav-links">
+    <li><a href="index.html"><i class="fas fa-home"></i><span>Home</span></a></li>
+    <li><a href="programs.php"><i class="fas fa-dumbbell"></i><span>Programs</span></a></li>
+    <li><a href="store.html"><i class="fas fa-shopping-cart"></i><span>Store</span></a></li>
+    <li><a href="about.html"><i class="fas fa-info-circle"></i><span>About</span></a></li>
+    <li><a href="contact.html" class="active"><i class="fas fa-envelope"></i><span>Contact</span></a></li>
+    <li class="nav-login"><a href="login.html"><i class="fas fa-sign-in-alt"></i><span>Login</span></a></li>
+    <li class="nav-logout"><a href="logout.php"><i class="fas fa-sign-out-alt"></i><span>Logout</span></a></li>
+  </ul>
+</nav>
+
+</header>
+
+  <section class="contact-hero">
+    <div class="hero-overlay">
+      <h1>Get In Touch</h1>
+      <p>We're here to answer your questions and help you start your fitness journey</p>
+    </div>
+  </section>
+
+  <section class="contact-container">
+    <div class="contact-content">
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <div class="info-card">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h3>Location</h3>
+            <p>123 Fitness Street<br>Beirut, Lebanon</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-phone-alt"></i>
+          <div>
+            <h3>Phone</h3>
+            <p>+961 1 234 567</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h3>Email</h3>
+            <p>info@thecircuit.com</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <i class="fas fa-clock"></i>
+          <div>
+            <h3>Hours</h3>
+            <p>Monday - Friday: 6AM - 10PM<br>
+            Saturday - Sunday: 8AM - 8PM</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form-container">
+        <h2>Send Us a Message</h2>
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error-msg" id="nameError"></span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-msg" id="emailError"></span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone (Optional)</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+              <option value="" disabled selected>Select a subject</option>
+              <option value="membership">Membership Inquiry</option>
+              <option value="training">Personal Training</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select>
+            <span class="error-msg" id="subjectError"></span>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <span class="error-msg" id="messageError"></span>
+          </div>
+          <button type="submit" class="btn submit-btn">Send Message</button>
+          <div id="formSuccess" class="success-msg"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="map-section">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.536674136982!2d35.49582231521076!3d33.88626298065288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f17215880a78f%3A0x729182bae99836b4!2sBeirut!5e0!3m2!1sen!2slb!4v1620000000000!5m2!1sen!2slb" 
+            width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <img src="assets/logo.png" alt="The Circuit" width="150">
+      <p>Your premier fitness destination</p>
+    </div>
+    
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h3>Page Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programs.php">Programs</a></li>
+          <li><a href="store.html">Store</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Support</h3>
+        <ul>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-col">
+        <h3>Connect</h3>
+        <div class="social-links">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="footer-bottom">
+    <p>&copy; <span id="current-year"></span> The Circuit. All rights reserved.</p>
+  </div>
+</footer>
+</body>
+</html>
